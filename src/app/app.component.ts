@@ -212,8 +212,8 @@ export class AppComponent implements OnInit, AfterViewInit {
 		);
 	}
 
-	defaultLogoSmall = require("../breakdown/static/images/logo.svg");
-	defaultLogoDesktop = require("../breakdown/static/images/logo-desktop.svg");
+	defaultLogoSmall = require("../breakdown/static/images/logo.png");
+	defaultLogoDesktop = require("../breakdown/static/images/logo.png");
 	get logoSmall() { return this.theme['logoImg'] ? this.theme['logoImg']['small'] : this.defaultLogoSmall; }
 	get logoDesktop() { return this.theme['logoImg'] ? this.theme['logoImg']['desktop'] : this.defaultLogoDesktop; }
 }
