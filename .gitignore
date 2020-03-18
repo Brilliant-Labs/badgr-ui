@@ -13,3 +13,10 @@ code/
 temp/
 
 !src/breakdown/static/js/*.js
+
+{
+    "search.exclude": {
+        "**/node_modules":false
+    },
+    "search.useIgnoreFiles":false
+}

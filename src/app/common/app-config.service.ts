@@ -138,7 +138,7 @@ export const defaultConfig: BadgrConfig = {
 	assertionVerifyUrl: "https://badgecheck.io/",
 	theme: {
 		serviceName: "Badgr",
-		welcomeMessage: `### Welcome!`,
+		welcomeMessage: `### Welcome to the Brilliant Labs Badge Portal!`,
 		alternateLandingUrl: null,
 		showPoweredByBadgr: false,
 		showApiDocsLink: true,
@@ -147,8 +147,8 @@ export const defaultConfig: BadgrConfig = {
 		privacyPolicyLink: null,
 		providedBy: null,
 		logoImg: {
-			small: require("../../../node_modules/@concentricsky/badgr-style/dist/images/os-logo-small.svg") as string,
-			desktop: require("../../../node_modules/@concentricsky/badgr-style/dist/images/os-logo-large.svg") as string,
+			small: require("../../../node_modules/@concentricsky/badgr-style/dist/images/logo.png") as string,
+			desktop: require("../../../node_modules/@concentricsky/badgr-style/dist/images/logo.png") as string,
 		},
 		loadingImg: {
 			// Image is inlined here to avoid any external resource loading, at the expense of a larger initial file size. We only do this for the default theme.
@@ -158,8 +158,8 @@ export const defaultConfig: BadgrConfig = {
 		favicons: [],
 		useColorNavbar: false,
 		cssCustomProps: {
-			'--color-interactive1' : 'rgb(0,0,0)',
-			'--color-interactive2' : 'rgb(20,20,20)',
+			'--color-interactive1' : 'rgb(151,80,158)',
+			'--color-interactive2' : 'rgb(151,80,158)',
 			'--color-interactive2alpha50' : 'rgba(20,20,20,0.5)',
 		}
 	}
