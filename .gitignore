@@ -13,7 +13,10 @@ code/
 temp/
 
 !src/breakdown/static/js/*.js
+<<<<<<< HEAD
 
+=======
+>>>>>>> 873d9ce6e53a434fbe6e340c7567e4bb64a3a34c
 {
     "search.exclude": {
         "**/node_modules":false

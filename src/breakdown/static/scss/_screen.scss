@@ -57,7 +57,7 @@ app-root {
 }
 
 body {
-  background: var(--color-light2);
+  background: red;
   color: var(--color-dark1);
   font-family: var(--font-family);
   font-size: var(--font-size);
@@ -67,8 +67,8 @@ body {
 
 button {
   appearance: none;
-  background: none;
-  border: 0;
+  background: red;
+  border: none;
   color: var(--color-dark1);
   cursor: pointer;
   font-family: var(--font-family);
@@ -284,7 +284,7 @@ strong {
 'modules/u-padding/u-padding',
 'modules/u-grid/u-grid';
 
-
+@import 'over-ride';
 // Overrides
 
 // When in the canvas/LTI views this overrides the body background to match the design

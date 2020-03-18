@@ -104,18 +104,24 @@ $transition-easing: ease-out;
   --color-primary: #b5445b;
   --color-primary-hover: #D33B5B;
   --color-primary-light: #f5dfe3;
-  --color-secondary: #05012c;
+  --color-secondary: rgb(155,80,151);
   --color-tertiary: #ffb500;
   --color-quaternary: #93ab23;
   --color-light1: #fff;
   --color-light2: #fcfcfc;
   --color-light3: #f7f7f7;
   --color-light4: #efefef;
+<<<<<<< HEAD
   --color-dark1: pink;
   --color-dark2: #6c6b80;
+=======
+  --color-dark1: #252247;
+  --color-dark2: rgb(155,80,151);
+>>>>>>> 873d9ce6e53a434fbe6e340c7567e4bb64a3a34c
   --color-dark3: #a09eaf;
-  --color-dark4: #e1e0e5;
+  --color-dark4: rgb(155,80,151);
   --color-dark5: #000;
+  --color-bl-purple: rgb(155,80,151);
   --color-error:#f01f31;
   --color-pending: #ffb500;
   --color-success: #93ab23;
@@ -208,7 +214,7 @@ $transition-easing: ease-out;
 }
 
 @mixin expiredlabel {
-  background-color: var(--color-dark2);
+  background-color: var(--color-bl-purple);
   border-radius: var(--border-radius);
   color: var(--color-light1);
   font-size: var(--font-size-small2);
@@ -221,7 +227,7 @@ $transition-easing: ease-out;
 // FormField Label
 @mixin label-formfield {
   align-items: center;
-  color: var(--color-dark2);
+  color: var(--color-bl-purple);
   display: flex;
   font-size: var(--font-size-small2);
   font-weight: bold;
