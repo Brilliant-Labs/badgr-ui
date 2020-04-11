@@ -138,11 +138,7 @@ export const defaultConfig: BadgrConfig = {
 	assertionVerifyUrl: "https://badgecheck.io/",
 	theme: {
 		serviceName: "Badgr",
-<<<<<<< HEAD
-		welcomeMessage: `### Welcome to the Brilliant Labs Badge Portal!`,
-=======
 		welcomeMessage: `### Welcome to the Brilliant Labs Badge Program!`,
->>>>>>> 873d9ce6e53a434fbe6e340c7567e4bb64a3a34c
 		alternateLandingUrl: null,
 		showPoweredByBadgr: false,
 		showApiDocsLink: true,
@@ -163,14 +159,9 @@ export const defaultConfig: BadgrConfig = {
 		useColorNavbar: false,
 		cssCustomProps: {
 			'--color-interactive1' : 'rgb(151,80,158)',
-<<<<<<< HEAD
 			'--color-interactive2' : 'rgb(151,80,158)',
 			'--color-interactive2alpha50' : 'rgba(20,20,20,0.5)',
-=======
-			'--color-interactive2' : 'rgb(20,20,20)',
-			'--color-interactive2alpha50' : 'rgba(20,20,20,0.0)',
 
->>>>>>> 873d9ce6e53a434fbe6e340c7567e4bb64a3a34c
 		}
 	}
 };
